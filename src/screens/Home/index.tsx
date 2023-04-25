@@ -1,11 +1,11 @@
 import { View } from "react-native";
 import { TodoInput } from "../../components/TodoInput";
-import { TopLogo } from "../../components/TopLogo";
+import { Header } from "../../components/Header";
 
 export function Home() {
     return (
         <View>
-            <TopLogo />
+            <Header />
             <TodoInput />
         </View>
     )
