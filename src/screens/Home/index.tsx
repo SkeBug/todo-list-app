@@ -1,12 +1,13 @@
 import { View } from "react-native";
-import { TodoInput } from "../../components/TodoInput";
 import { Header } from "../../components/Header";
+import { NewTask } from "../../components/NewTask";
+import { styles } from "./style";
 
 export function Home() {
     return (
         <View>
             <Header />
-            <TodoInput />
+            <NewTask />
         </View>
     )
 }
