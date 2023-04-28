@@ -1,7 +1,6 @@
-import { Button, Text, TextInput, TouchableOpacity, View } from "react-native";
+import { TextInput, TouchableOpacity, View } from "react-native";
 import { styles } from "./style";
-import { PlusCircle } from "phosphor-react-native";
-
+import { AntDesign } from "@expo/vector-icons";
 
 export function NewTask() {
     return (
@@ -11,11 +10,9 @@ export function NewTask() {
                 placeholder="Adicione uma nova tarefa"
                 placeholderTextColor="#808080"
             />
-
             <TouchableOpacity style={styles.button}>
-                <PlusCircle size={28} color="#fff" />
+                <AntDesign name="pluscircleo" size={24} color="#fff" />
             </TouchableOpacity>
-
         </View>
     )
 }
